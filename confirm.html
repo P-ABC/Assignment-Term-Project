@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครเรียน</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <div class="header">
+        <img src="images/logo.png" alt="Logo">
+        <div class="title">
+            <h4>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h4>
+            <p>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</p>
+        </div>
+
+        <div class="menu">
+            <a href="index.html">หน้าแรก</a>
+            <a href="register.html">สมัครเรียน</a>
+            <a href="status.html">ตรวจสอบสถานะ</a>
+        </div>
+
+        <button class="login">
+            เข้าสู่ระบบผู้ใช้งาน
+        </button>
+    </div>
+
+    <div class="steps">
+        <div class="step">
+            <span>1</span>
+            ข้อมูลส่วนตัว
+        </div>
+
+        <div class="line"></div>
+        <div class="step">
+            <span>2</span>
+            ประวัติการศึกษา
+        </div>
+
+        <div class="line"></div>
+        <div class="step">
+            <span>3</span>
+            เลือกหลักสูตร
+        </div>
+
+        <div class="line"></div>
+        <div class="step">
+            <span>4</span>
+            อัปโหลดเอกสาร
+        </div>
+
+        <div class="line"></div>
+        <div class="step active">
+            <span>5</span>
+            ยืนยันข้อมูล
+        </div>
+    </div>
+
+    <div class="register">
+        <h1>ยืนยันข้อมูลการสมัคร</h1>
+        <p>กรุณาตรวจสอบข้อมูลทั้งหมดก่อนยืนยันการสมัคร</p>
+        <div class="form">
+            <h2>ข้อมูลส่วนตัว</h2>
+            <div class="row">
+                <div class="field">
+                    <label>
+                        ชื่อ - นามสกุล
+                    </label>
+                    <input type="text" value="ตัวอย่าง ผู้สมัคร" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        เลขประจำตัวประชาชน
+                    </label>
+                    <input type="text" value="1-2345-67890-12-3" readonly>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>
+                        วัน/เดือน/ปี เกิด
+                    </label>
+                    <input type="text" value="01/01/2550" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        เบอร์โทรศัพท์
+                    </label>
+                    <input type="text" value="090-000-0000" readonly>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>
+                        อีเมล
+                    </label>
+                    <input type="text" value="student@example.com" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        จังหวัด
+                    </label>
+                    <input type="text" value="กรุงเทพมหานคร" readonly>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="form">
+            <h2>ประวัติการศึกษา</h2>
+            <div class="row">
+                <div class="field">
+                    <label>
+                        ระดับการศึกษา
+                    </label>
+                    <input type="text" value="มัธยมศึกษาตอนปลาย" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        ปีที่จบการศึกษา
+                    </label>
+                    <input type="text" value="2569" readonly>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>
+                        ชื่อสถานศึกษา
+                    </label>
+                    <input type="text" value="โรงเรียนตัวอย่าง" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        GPA
+                    </label>
+                    <input type="text" value="3.25" readonly>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="form">
+            <h2>หลักสูตรที่สมัคร</h2>
+            <div class="row">
+                <div class="field">
+                    <label>
+                        คณะ
+                    </label>
+                    <input type="text" value="คณะวิศวกรรมศาสตร์" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        สาขาวิชา
+                    </label>
+                    <input type="text" value="วิศวกรรมคอมพิวเตอร์" readonly>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>
+                        ประเภทการรับสมัคร
+                    </label>
+                    <input type="text" value="รอบปกติ" readonly>
+                </div>
+
+                <div class="field">
+                    <label>
+                        รูปแบบการศึกษา
+                    </label>
+                    <input type="text" value="ภาคปกติ" readonly>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="form">
+            <h2>เอกสารประกอบการสมัคร</h2>
+            <div class="field">
+                <label>
+                    สำเนาบัตรประชาชน
+                </label>
+                <input type="text" value="อัปโหลดแล้ว" readonly>
+            </div><br>
+
+            <div class="field">
+                <label>
+                    ใบแสดงผลการเรียน
+                </label>
+                <input type="text" value="อัปโหลดแล้ว" readonly>
+            </div><br>
+
+            <div class="field">
+                <label>
+                    รูปถ่ายผู้สมัคร
+                </label>
+                <input type="text" value="อัปโหลดแล้ว" readonly>
+            </div>
+        </div><br>
+
+        <div class="form">
+            <h2>ยืนยันการสมัคร</h2>
+            <form action="status.html">
+                <label>
+                    <input type="checkbox" required>
+                    ข้าพเจ้าตรวจสอบข้อมูลทั้งหมดแล้ว
+                    และยืนยันว่าข้อมูลเป็นความจริง
+                </label>
+
+                <div class="button2">
+                        <a href="document.html" class="backbutton"> ← ย้อนกลับ </a>
+                        <button type="submit" a href="status.html" class="nextbutton">ยืนยันการสมัคร </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <img src="images/logo.png" alt="logo">
+            <h2>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h2>
+        </div>
+
+        <div class="contact">
+            <h1>ติดต่อเรา</h1>
+            <p>
+                กลุ่มงานรับเข้าศึกษา กองบริการการศึกษา
+                สำนักงานอธิการบดี ชั้น 2 อาคาร TGGS
+                มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ 1518
+                ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง
+                เขตบางซื่อ กรุงเทพฯ 10800
+            </p>
+
+            <div class="contact1">
+                <img src="images/tel.png" alt="tel">
+                <div>
+                    <h4>เบอร์โทรสมัครส่วนงานรับสมัคร</h4>
+                    <p>+66 2 555-2000 ต่อ 1626,1627</p>
+                </div>
+            </div>
+
+            <div class="contact1">
+                <img src="images/email.png" alt="email">
+                <div>
+                    <h4>อีเมลติดต่ออย่างเป็นทางการ</h4>
+                    <p>contact@op.kmutnb.ac.th</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

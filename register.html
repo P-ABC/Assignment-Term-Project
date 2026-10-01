@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครเรียน</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <div class="header">
+        <img src="images/logo.png" alt="Logo">
+        <div class="title">
+            <h4>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h4>
+            <p>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</p>
+        </div>
+
+        <div class="menu">
+            <a href="index.html">หน้าแรก</a>
+            <a href="register.html">สมัครเรียน</a>
+            <a href="status.html">ตรวจสอบสถานะ</a>
+        </div>
+
+        <button class="login">
+            เข้าสู่ระบบผู้ใช้งาน
+        </button>
+    </div>
+
+    <div class="steps">
+        <div class="step active">
+            <span>1</span>
+            ข้อมูลส่วนตัว
+        </div>
+        <div class="line"></div>
+        <div class="step">
+            <span>2</span>
+            ประวัติการศึกษา
+        </div>
+        <div class="line"></div>
+        <div class="step">
+            <span>3</span>
+            เลือกหลักสูตร
+        </div>
+        <div class="line"></div>
+        <div class="step">
+            <span>4</span>
+            อัปโหลดเอกสาร
+        </div>
+        <div class="line"></div>
+        <div class="step">
+            <span>5</span>
+            ยืนยันข้อมูล
+        </div>
+    </div>
+
+    <div class="register">
+        <h1>กรอกข้อมูลสมัครเรียน</h1>
+        <p>
+            กรุณากรอกข้อมูลจริงตามบัตรประชาชนให้ครบถ้วนเพื่อผลประโยชน์ในการคัดเลือก
+        </p>
+
+        <div class="form">
+            <h2>ขั้นตอนที่ 1: ข้อมูลส่วนตัวผู้สมัคร</h2>
+            <div class="row first">
+                <div class="field">
+                    <label>คำนำหน้าชื่อ *</label>
+
+                    <select>
+                        <option>นาย</option>
+                        <option>นาง</option>
+                        <option>นางสาว</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>ชื่อจริง (ภาษาไทย) *</label>
+                    <input type="text" placeholder="เช่น สมชาย">
+                </div>
+
+                <div class="field">
+                    <label>นามสกุล (ภาษาไทย) *</label>
+                    <input type="text" placeholder="เช่น เรียนดี">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>เลขประจำตัวประชาชน 13 หลัก *</label>
+
+                    <input type="text" placeholder="1-2345-67890-12-3" maxlength="17">
+                </div>
+
+                <div class="field">
+                    <label>วัน/เดือน/ปี เกิด *</label>
+                    <input type="date">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>เบอร์โทรศัพท์ติดต่อ *</label>
+                    <input type="tel" placeholder="090-000-0000">
+                </div>
+
+                <div class="field">
+                    <label>อีเมลผู้สมัคร *</label>
+                    <input type="email" placeholder="student@example.com">
+                </div>
+            </div>
+
+            <div class="field address">
+                <label>ที่อยู่ปัจจุบัน *</label>
+                <textarea placeholder="บ้านเลขที่ ถนน ซอย..."></textarea>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label>จังหวัด *</label>
+                    <select>
+                        <option>กรุงเทพมหานคร</option>
+                        <option>นนทบุรี</option>
+                        <option>ปทุมธานี</option>
+                        <option>เชียงใหม่</option>
+                        <option>ขอนแก่น</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>รหัสไปรษณีย์ *</label>
+                    <input type="text" placeholder="10800" maxlength="5">
+                </div>
+            </div>
+
+            <div class="button">
+                    <a href="education.html" class="nextbutton">ขั้นตอนถัดไป →</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="footer">
+        <div class="footer-left">
+            <img src="images/logo.png" alt="logo">
+            <h2>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h2>
+        </div>
+
+        <div class="contact">
+            <h1>ติดต่อเรา</h1>
+            <p>
+                กลุ่มงานรับเข้าศึกษา กองบริการการศึกษา
+                สำนักงานอธิการบดี ชั้น 2 อาคาร TGGS
+                มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ 1518
+                ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง
+                เขตบางซื่อ กรุงเทพฯ 10800
+            </p>
+
+            <div class="contact1">
+                <img src="images/tel.png" alt="tel">
+                <div>
+                    <h4>เบอร์โทรสมัครส่วนงานรับสมัคร</h4>
+                    <p>+66 2 555-2000 ต่อ 1626,1627</p>
+                </div>
+            </div>
+
+            <div class="contact1">
+                <img src="images/email.png" alt="email">
+                <div>
+                    <h4>อีเมลติดต่ออย่างเป็นทางการ</h4>
+                    <p>contact@op.kmutnb.ac.th</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

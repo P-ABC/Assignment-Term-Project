@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <div class="header">
+        <img src="images/logo.png" alt="Logo">
+        <div class="title">
+            <h4>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h4>
+            <p>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</p>
+        </div>
+
+        <div class="menu">
+            <a href="index.html">หน้าแรก</a>
+            <a href="register.html">สมัครเรียน</a>
+            <a href="status.html">ตรวจสอบสถานะ</a>
+        </div>
+
+        <button class="login">
+            เข้าสู่ระบบผู้ใช้งาน
+        </button>
+    </div>
+
+    <div class="status-page">
+        <h1>ตรวจสอบสถานะการสมัครเรียน</h1>
+        <p class="status-description">ติดตามความคืบหน้าการสมัครและผลการคัดเลือกเข้าศึกษา</p>
+
+        <form action="#status-result">
+            <div class="status-search">
+                <div class="status-field">
+                    <label>
+                        เลขประจำตัวประชาชน *
+                    </label>
+                    <input type="text" placeholder="1-2345-67890-12-3" required>
+                </div>
+
+                <div class="status-field">
+                    <label>
+                        หมายเลขใบสมัคร *
+                    </label>
+                    <input type="text" placeholder="2568-0001" required>
+                </div>
+                <button type="submit" class="status-search-button">ตรวจสอบสถานะ</button>
+            </div>
+        </form>
+
+        <div class="status-result" id="status-result">
+            <div class="status-result-title">
+                <h2>ผลการตรวจสอบใบสมัคร</h2>
+                <span class="status-success">
+                    ● ข้อมูลสมบูรณ์
+                </span>
+            </div>
+
+            <div class="status-info">
+                <div class="status-row">
+                    <span>
+                        ชื่อ-นามสกุล
+                    </span>
+                    <strong>
+                        นายทดสอบ ผู้สมัคร
+                    </strong>
+                </div>
+
+                <div class="status-row">
+                    <span>
+                        หมายเลขใบสมัคร
+                    </span>
+                    <strong>
+                        2568-0001
+                    </strong>
+                </div>
+
+                <div class="status-row">
+                    <span>
+                        สาขาวิชา
+                    </span>
+                    <strong>
+                        คณะวิศวกรรมคอมพิวเตอร์
+                    </strong>
+                </div>
+
+                <div class="status-row">
+                    <span>
+                        สถานะการสมัคร
+                    </span>
+                    <strong class="status-waiting">
+                        รอตรวจสอบ
+                    </strong>
+                </div>
+            </div>
+
+            <div class="status-note">
+                <strong>ⓘ</strong>
+                <span>
+                    ข้อมูลสถานะนี้เป็นข้อมูลสำหรับตรวจสอบเบื้องต้น
+                    กรุณาติดตามประกาศจากมหาวิทยาลัยอีกครั้ง
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <img src="images/logo.png" alt="logo">
+            <h2>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h2>
+        </div>
+
+        <div class="contact">
+            <h1>ติดต่อเรา</h1>
+            <p>
+                กลุ่มงานรับเข้าศึกษา กองบริการการศึกษา
+                สำนักงานอธิการบดี ชั้น 2 อาคาร TGGS
+                มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ 1518
+                ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง
+                เขตบางซื่อ กรุงเทพฯ 10800
+            </p>
+
+            <div class="contact1">
+                <img src="images/tel.png" alt="tel">
+                <div>
+                    <h4>เบอร์โทรสมัครส่วนงานรับสมัคร</h4>
+                    <p>+66 2 555-2000 ต่อ 1626,1627</p>
+                </div>
+            </div>
+
+            <div class="contact1">
+                <img src="images/email.png" alt="email">
+                <div>
+                    <h4>อีเมลติดต่ออย่างเป็นทางการ</h4>
+                    <p>contact@op.kmutnb.ac.th</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
